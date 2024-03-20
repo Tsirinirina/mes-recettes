@@ -6,49 +6,43 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   /* BASIC COLOR  */
-  --body-background-color: #f8f9fa;
+  --body-background-color: #f4ecd8;
   --body-foreground-color: #2a3034;
-  --primary-color: #4265d6;
-  --ternary-color: #60cbff;
-  --secondary-color: #2a3034;
+
+  --primary-color: #f3722c;
+  --secondary-color: #f9c74f;
+  --tertiary-color: #2a9d8f;
   --light-color: #f0f0f0;
   --blue-light-color: #cdeaf0;
-  --dark-color: #293855;
+  --dark-color: #264653;
   --night-color: #1a1a1a;
-  --danger-color: #e85353;
+  --accent-color: #bf1363;
+  --danger-color: #c70039;
   --success-color: #28a745;
-  --green-background: #c2e7c9;
-  --warning-color: #f2ac20;
-  --sun-color: #fcdc73;
-  /* texte color */
-  --texte-primary-color: #f8f9fa;
-  --texte-secondary-color: #f8f9fa;
-  --texte-ternary-color: #f8f9fa;
-  --texte-success-color: #f8f9fa;
-  --texte-danger-color: #f8f9fa;
-  --texte-primary-color: #f8f9fa;
-  --texte-dark-color: #f8f9fa;
-  --texte-light-color: #2a3034;
+  --warning-color: #f4a261;
+  --sun-color: #ffe14b;
 }
 
 /* Si le theme du navigateur est dark */
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     /* BASIC COLOR  */
     --body-background-color: #2a3034;
-    --body-foreground-color: #f8f9fa;
-    --primary-color: #4265d6;
-    --ternary-color: #60cbff;
-    --secondary-color: #2a3034;
-    --light-color: #f8f9fa;
-    --dark-color: #293855;
+    --body-foreground-color: #f4ecd8;
+
+    --primary-color: #f3722c;
+    --secondary-color: #f9c74f;
+    --tertiary-color: #2a9d8f;
+    --light-color: #f0f0f0;
+    --blue-light-color: #cdeaf0;
+    --dark-color: #264653;
     --night-color: #1a1a1a;
-    --danger-color: #e85353;
+    --accent-color: #bf1363;
+    --danger-color: #c70039;
     --success-color: #28a745;
-    --green-background: #c2e7c9;
-    --warning-color: #f2ac20;
-    --sun-color: #fcdc73;
+    --warning-color: #f4a261;
+    --sun-color: #ffe14b;
   }
 }
 

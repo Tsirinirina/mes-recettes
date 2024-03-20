@@ -13,34 +13,34 @@
 
 .primary {
   background: var(--primary-color);
-  color: var(--texte-primary-color);
+  color: var(--light-color);
 }
 
 .secondary {
   background: var(--secondary-color);
-  color: var(--texte-secondary-color);
+  color: var(--dark-color);
 }
 
-.ternary {
-  background: var(--ternary-color);
-  color: var(--texte-ternary-color);
+.tertiary {
+  background: var(--tertiary-color);
+  color: var(--light-color);
 }
 
 .success {
   background: var(--success-color);
-  color: var(--texte-success-color);
+  color: var(--light-color);
 }
 .danger {
   background: var(--danger-color);
-  color: var(--texte-danger-color);
+  color: var(--light-color);
 }
 .dark {
   background: var(--dark-color);
-  color: var(--texte-dark-color);
+  color: var(--light-color);
 }
 .light {
   background: var(--light-color);
-  color: var(--texte-light-color);
+  color: var(--dark-color);
 }
 
 /* Size style */

@@ -1,0 +1,31 @@
+:root {
+  --text-primary: var(--primary-color);
+  --text-secondary: var(--secondary-color);
+  --text-tertiary: var(--tertiary-color);
+  --text-success: var(--success-color);
+  --text-danger: var(--danger-color);
+  --text-dark: var(--accent-color);
+  --text-light: var(--light-color);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+.text-secondary {
+  color: var(--text-secondary-);
+}
+.text-tertiary {
+  color: var(--text-tertiary);
+}
+.text-success {
+  color: var(--text-success);
+}
+.text-danger {
+  color: var(--text-danger);
+}
+.text-dark {
+  color: var(--text-dark);
+}
+.text-light {
+  color: var(--text-light);
+}

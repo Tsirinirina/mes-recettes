@@ -1,0 +1,155 @@
+/* DISPLAY */
+.df {
+  display: flex;
+}
+.dg {
+  display: grid;
+}
+
+/* ALIGNEMENT  */
+.j-center {
+  justify-content: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.j-start {
+  justify-content: flex-start;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+/* COLUMN */
+.col-1 {
+  grid-template-columns: 1fr;
+}
+
+.col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+.bg-secondary {
+  background: var(--secondary-color);
+}
+
+.bg-tertiary {
+  background: var(--tertiary-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+}
+
+.bg-dark {
+  background: var(--dark-color);
+}
+
+.bg-night {
+  background: var(--night-color);
+}
+
+.bg-accent {
+  background: var(--accent-color);
+}
+
+.bg-danger {
+  background: var(--danger-color);
+}
+
+.bg-success {
+  background: var(--success-color);
+}
+
+.bg-warning {
+  background: var(--warning-color);
+}
+
+.bg-sun {
+  background: var(--sun-color);
+}
+
+.bg-blue-light {
+  background: var(--blue-light-color);
+}
+
+/* BORDER  */
+
+.border-dark-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--dark-color);
+}
+
+.border-dark-2 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--dark-color);
+}
+
+.border-primary-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--primary-color);
+}
+
+.border-primary-2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--primary-color);
+}
+
+.border-light-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--light-color);
+}
+
+.border-light-2 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--light-color);
+}
+
+/* BORDER STYLE  */
+
+.b-radius-sx {
+  border-radius: 2px;
+}
+
+.b-radius-sm {
+  border-radius: 5px;
+}
+
+.b-radius-md {
+  border-radius: 10px;
+}
+
+.b-radius-lg {
+  border-radius: 20px;
+}
+
+.b-radius-lg {
+  border-radius: 35px;
+}
+
+.b-rounded {
+  border-radius: 50%;
+}

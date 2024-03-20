@@ -9,7 +9,6 @@ export default function Home() {
   };
   return (
     <main className={styles.main}>
-      <div className={styles.case}>Texte a afficher</div>
       <div className={styles.btnDiv}>
         <Button variant="primary" size="sx" onClick={onClick}>
           Button 1
@@ -18,7 +17,7 @@ export default function Home() {
           Button 2
         </Button>
         <div style={{ width: "400px" }}>
-          <Button variant="ternary" onClick={onClick}>
+          <Button variant="tertiary" onClick={onClick}>
             Button 3
           </Button>
         </div>
