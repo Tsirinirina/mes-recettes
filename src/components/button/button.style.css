@@ -1,0 +1,112 @@
+.btn {
+  display: flex;
+  min-width: 24px;
+  min-height: 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* variant style  */
+
+.primary {
+  background: var(--primary-color);
+  color: var(--texte-primary-color);
+}
+
+.secondary {
+  background: var(--secondary-color);
+  color: var(--texte-secondary-color);
+}
+
+.ternary {
+  background: var(--ternary-color);
+  color: var(--texte-ternary-color);
+}
+
+.success {
+  background: var(--success-color);
+  color: var(--texte-success-color);
+}
+.danger {
+  background: var(--danger-color);
+  color: var(--texte-danger-color);
+}
+.dark {
+  background: var(--dark-color);
+  color: var(--texte-dark-color);
+}
+.light {
+  background: var(--light-color);
+  color: var(--texte-light-color);
+}
+
+/* Size style */
+.s-auto {
+  width: 100%;
+}
+.sx {
+  width: 80px;
+}
+
+.sm {
+  width: 100px;
+}
+
+.md {
+  width: 120px;
+}
+
+.lg {
+  width: 150px;
+}
+
+.xl {
+  width: 200px;
+}
+
+.h-auto {
+  height: 30px;
+}
+
+.h-sx {
+  height: 25px;
+}
+
+.h-sm {
+  height: 35px;
+}
+
+.h-md {
+  height: 40px;
+}
+
+.h-lg {
+  height: 45px;
+}
+
+.h-xl {
+  height: 80px;
+}
+/* border radius */
+
+.rounded-sx {
+  border-radius: 2px;
+}
+
+.rounded-sm {
+  border-radius: 5px;
+}
+
+.rounded-md {
+  border-radius: 10px;
+}
+
+.rounded-lg {
+  border-radius: 15px;
+}
+.rounded-xl {
+  border-radius: 30px;
+}
