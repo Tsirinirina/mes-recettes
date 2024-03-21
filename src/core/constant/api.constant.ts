@@ -4,4 +4,7 @@ export const api = {
     index: `${process.env.API_BASE_URL}`,
     bonjour: `${process.env.API_BASE_URL}/bonjour`,
   },
+  user: {
+    index: `${process.env.API_BASE_URL}/user`,
+  },
 };

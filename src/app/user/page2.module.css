@@ -1,0 +1,6 @@
+.container {
+  margin: 20px;
+  padding: 20px;
+  min-height: 95vh;
+  background: var(--light-color);
+}
