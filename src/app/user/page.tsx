@@ -14,6 +14,7 @@ const Page2 = async () => {
 
   return (
     <div className={style.container}>
+      DONNÉES DU DB
       <div className={``}>{data && JSON.stringify(data)}</div>
     </div>
   );
