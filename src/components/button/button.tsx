@@ -19,7 +19,7 @@ export const Button: React.FC<ButtonProps> = ({
   rounded,
   height,
 }) => {
-  console.log("Variant= ", variant);
+  // console.log("Variant= ", variant);
 
   return (
     <button

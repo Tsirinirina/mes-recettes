@@ -1,14 +1,29 @@
 "use client";
 import { Button } from "@/components/button/button";
 import styles from "./page.module.css";
+import { getBonjour } from "@/services/bonjour/bonjour.service";
+import { HttpStatusCode } from "axios";
 
-export default function Home() {
+const getBonjourData = async () => {
+  const response = await getBonjour();
+  if (response.status === HttpStatusCode.Ok) {
+    return response.data;
+  }
+  return response;
+};
+
+export default async function Home() {
   console.log("Btn var");
   const onClick = () => {
     console.log("On Click res");
   };
+
+  const data = await getBonjourData();
+  console.log(data);
+
   return (
     <main className={styles.main}>
+      DATA ON API {data && data.texte}
       <div className={styles.btnDiv}>
         <Button variant="primary" size="sx" onClick={onClick}>
           Button 1
