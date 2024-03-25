@@ -4,3 +4,11 @@
   min-height: 95vh;
   background: var(--light-color);
 }
+
+.case {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -35,6 +35,31 @@ const Page2 = () => {
           <div className={`${style.block} bg-warning`}>Warning</div>
           <div className={`${style.block} bg-sun`}>Sun</div>
         </div>
+        <div className={`${style.container} dg col-3 m-4 `}>
+          <div className={`${style.case} bg-light b-shadow-sx`}>Shadow sx</div>
+          <div className={`${style.case} bg-light b-shadow-sm`}>Shadow sm</div>
+          <div className={`${style.case} bg-light b-shadow-md`}>Shadow md</div>
+          <div className={`${style.case} bg-light b-shadow-lg`}>Shadow lg</div>
+          <div className={`${style.case} bg-light b-shadow-xl`}>Shadow xl</div>
+          <div className={`${style.case} bg-light elevation-1`}>
+            Elevation 1
+          </div>
+          <div className={`${style.case} bg-light elevation-2`}>
+            Elevation 2
+          </div>
+          <div className={`${style.case} bg-light elevation-3`}>
+            Elevation 3
+          </div>
+          <div className={`${style.case} bg-light elevation-4`}>
+            Elevation 4
+          </div>
+          <div className={`${style.case} bg-light elevation-5`}>
+            Elevation 5
+          </div>
+          <div className={`${style.case} bg-light elevation-6`}>
+            Elevation 6
+          </div>
+        </div>
       </div>
     </div>
   );
