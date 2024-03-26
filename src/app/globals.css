@@ -21,8 +21,21 @@
   --success-color: #28a745;
   --warning-color: #f4a261;
   --sun-color: #ffe14b;
-}
 
+  /* BASIC HOVERED */
+  --primary-color-hover: #f3722ce6;
+  --secondary-color-hover: #f9c74fe6;
+  --tertiary-color-hover: #2a9d8fe6;
+  --light-color-hover: #f0f0f0e6;
+  --blue-light-color-hover: #cdeaf0e6;
+  --dark-color-hover: #264653e6;
+  --night-color-hover: #1a1a1ae6;
+  --accent-color-hover: #bf1363e6;
+  --danger-color-hover: #c70039e6;
+  --success-color-hover: #28a745e6;
+  --warning-color-hover: #f4a261e6;
+  --sun-color-hover: #ffe14be6;
+}
 /* Si le theme du navigateur est dark */
 
 @media (prefers-color-scheme: light) {

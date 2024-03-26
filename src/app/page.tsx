@@ -18,12 +18,12 @@ export default async function Home() {
     console.log("On Click res");
   };
 
-  const data = await getBonjourData();
-  console.log(data);
+  // const data = await getBonjourData();
+  // console.log(data);
 
   return (
     <main className={styles.main}>
-      DATA ON API {data && data.texte}
+      {/* DATA ON API {data && data.texte} */}
       <div className={styles.btnDiv}>
         <Button variant="primary" size="sx" onClick={onClick}>
           Button 1

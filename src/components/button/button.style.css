@@ -43,6 +43,32 @@
   color: var(--dark-color);
 }
 
+/* Variant style hovered  */
+.primary:hover {
+  background: var(--primary-color-hover);
+}
+
+.secondary:hover {
+  background: var(--secondary-color-hover);
+}
+
+.tertiary:hover {
+  background: var(--tertiary-color-hover);
+}
+
+.success:hover {
+  background: var(--success-color-hover);
+}
+.danger:hover {
+  background: var(--danger-color-hover);
+}
+.dark:hover {
+  background: var(--dark-color-hover);
+}
+.light:hover {
+  background: var(--light-color-hover);
+}
+/* dc */
 /* Size style */
 .s-auto {
   width: 100%;
