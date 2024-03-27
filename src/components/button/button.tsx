@@ -19,8 +19,6 @@ export const Button: React.FC<ButtonProps> = ({
   rounded,
   height,
 }) => {
-  // console.log("Variant= ", variant);
-
   return (
     <button
       className={`btn ${variant ? variant : "light"} ${

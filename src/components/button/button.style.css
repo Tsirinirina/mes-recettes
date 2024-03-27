@@ -8,6 +8,8 @@
   padding: 0 5px;
   font-weight: 400;
   cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
 }
 /* variant style  */
 
@@ -41,6 +43,7 @@
 .light {
   background: var(--light-color);
   color: var(--dark-color);
+  border: 1px solid var(--dark-color);
 }
 
 /* Variant style hovered  */
@@ -66,7 +69,9 @@
   background: var(--dark-color-hover);
 }
 .light:hover {
-  background: var(--light-color-hover);
+  background: var(--dark-color-hover);
+  color: var(--light-color);
+  border: 1px solid var(--dark-color);
 }
 /* dc */
 /* Size style */

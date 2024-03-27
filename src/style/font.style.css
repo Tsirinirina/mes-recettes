@@ -1,0 +1,81 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100,300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonbon:wght@400&display=swap");
+
+/* Utilisez les classes de polices */
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+}
+.lora {
+  font-family: "Lora", serif;
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.cookie {
+  font-family: "Cookie", sans-serif;
+}
+
+.bonbon {
+  font-family: "Bonbon", sans-serif;
+}
+
+.w-4 {
+  font-weight: 400;
+}
+
+.w-5 {
+  font-weight: 500;
+}
+
+.w-6 {
+  font-weight: 600;
+}
+
+.w-7 {
+  font-weight: 700;
+}
+
+.w-8 {
+  font-weight: 800;
+}
+
+.w-9 {
+  font-weight: 900;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fs-sm {
+  font-size: 10px;
+}
+
+.fs-md {
+  font-size: 12px;
+}
+
+.fs-lg {
+  font-size: 14px;
+}
+
+.fs-lg {
+  font-size: 16px;
+}
+
+.fs-xl {
+  font-size: 18px;
+}
