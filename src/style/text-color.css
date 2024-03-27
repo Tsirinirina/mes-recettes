@@ -4,7 +4,7 @@
   --text-tertiary: var(--tertiary-color);
   --text-success: var(--success-color);
   --text-danger: var(--danger-color);
-  --text-dark: var(--accent-color);
+  --text-dark: var(--dark-color);
   --text-light: var(--light-color);
 }
 
