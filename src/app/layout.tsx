@@ -4,6 +4,8 @@ import "../style/basic.style.css";
 import "../style/text-color.css";
 import "../style/spacement.style.css";
 import { Roboto } from "@next/font/google";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 export const metadata: Metadata = {
   title: "Mes Recettes",
   description: "Recettes de cuisine",
@@ -21,7 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={`${roboto.className} `}>
+        <Navbar>Navbar</Navbar>
+        {children}
+        <Footer>Footer</Footer>
+      </body>
     </html>
   );
 }
