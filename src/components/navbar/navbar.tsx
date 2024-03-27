@@ -4,7 +4,7 @@ export interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ children }) => {
-  return <div className="container">Navbar={children}</div>;
+  return <div className="navbar-container">Navbar={children}</div>;
 };
 
 export default Navbar;

@@ -83,6 +83,11 @@ a {
   text-decoration: none;
 }
 
+.main-container {
+  margin-top: 60px;
+  min-height: 96vh;
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
