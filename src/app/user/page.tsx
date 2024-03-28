@@ -1,5 +1,5 @@
 import { getAllUser } from "@/services/user/user.service";
-import style from "./page2.module.css";
+import style from "./page.module.css";
 import { HttpStatusCode } from "axios";
 
 const getAllUserData = async () => {
