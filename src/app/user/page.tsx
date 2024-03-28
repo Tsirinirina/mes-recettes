@@ -1,6 +1,7 @@
 import { getAllUser } from "@/services/user/user.service";
 import style from "./page.module.css";
 import { HttpStatusCode } from "axios";
+import Link from "@/components/link/link";
 
 const getAllUserData = async () => {
   const response = await getAllUser();
@@ -18,6 +19,7 @@ const Page2 = async () => {
     <div className={style.container}>
       DONNÉES DU DB
       <div className={``}>{data && JSON.stringify(data)}</div>
+      <Link>Hover moi!</Link>
     </div>
   );
 };
