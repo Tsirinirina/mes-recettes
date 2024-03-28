@@ -1,19 +1,30 @@
-import style from "./page3.module.css";
+import { Card } from "@/components/card/card";
+import style from "./page2.module.css";
+import { Button } from "@/components/button/button";
 
 const Page3 = () => {
   return (
-    <div className={style.container}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rem
-      sint assumenda explicabo? Dignissimos ducimus eligendi corrupti nihil
-      architecto id eos facere neque eaque mollitia animi odit, saepe dolorum
-      temporibus dolores quisquam vel consequuntur quae nobis soluta incidunt?
-      Commodi aspernatur ipsum ea odit nemo pariatur, ad, provident obcaecati
-      consequatur in ullam corporis neque ex sed numquam quasi. Eum,
-      consequuntur placeat. Iure saepe officia ex magni repellendus laboriosam
-      quo doloribus nihil sint numquam laborum dolores commodi in neque et
-      pariatur, rerum, deserunt consequatur debitis alias! Eius voluptatum
-      labore natus porro itaque nostrum iusto facilis, reiciendis aliquid
-      explicabo optio reprehenderit. Voluptas, debitis.
+    <div className={`${style.container} df j-between gap-2`}>
+      <Card title="Titre" image={{ alt: "Alt", path: "gateau.jpg" }}>
+        Children Card
+      </Card>
+      <Card
+        title="Titre"
+        image={{ alt: "Alt", path: "gateau4.jpg" }}
+        footer={"Footer"}
+      >
+        Children Card
+      </Card>
+      <Card title="Titre" image={{ alt: "Alt", path: "" }}>
+        Children Card
+      </Card>{" "}
+      <Card
+        title="Titre"
+        image={{ alt: "Alt", path: "" }}
+        footer={<Button variant="primary">Action</Button>}
+      >
+        Children Card
+      </Card>
     </div>
   );
 };

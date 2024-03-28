@@ -6,6 +6,7 @@ import { HttpStatusCode } from "axios";
 
 const getBonjourData = async () => {
   const response = await getBonjour();
+
   if (response.status === HttpStatusCode.Ok) {
     return response.data;
   }
@@ -13,7 +14,6 @@ const getBonjourData = async () => {
 };
 
 export default async function Home() {
-  console.log("Btn var");
   const onClick = () => {
     console.log("On Click res");
   };

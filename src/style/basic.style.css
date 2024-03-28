@@ -1,6 +1,7 @@
 /* DISPLAY */
 .df {
   display: flex;
+  flex-wrap: wrap;
 }
 .dg {
   display: grid;
